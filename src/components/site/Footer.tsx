@@ -10,7 +10,7 @@ export const Footer = () => (
             <img
               src={logoOW}
               alt="Brasão Dr. Odeni Woelbert"
-              className="w-10 h-10 object-contain"
+              className="w-14 h-14 object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]"
             />
             <span className="font-display text-white text-lg">{DOCTOR.name}</span>
           </div>
