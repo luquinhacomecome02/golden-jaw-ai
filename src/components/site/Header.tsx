@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { WHATSAPP_URL } from "@/lib/site";
-import logoOW from "@/assets/logo-ow-white.png";
+import logoOW from "@/assets/logo-ow.png";
 
 const links = [
   { href: "#sintomas", label: "Sintomas" },
@@ -30,13 +30,11 @@ export const Header = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 group">
-          <span className="grid place-items-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/5 backdrop-blur-sm border border-gold/30 shadow-[0_0_20px_-4px_hsl(var(--gold)/0.55)] transition-all duration-300 group-hover:border-gold/60 group-hover:shadow-[0_0_28px_-2px_hsl(var(--gold)/0.7)]">
-            <img
-              src={logoOW}
-              alt="Brasão Dr. Odeni Woelbert"
-              className="w-9 h-9 md:w-11 md:h-11 object-contain drop-shadow-[0_2px_6px_rgba(0,0,0,0.45)]"
-            />
-          </span>
+          <img
+            src={logoOW}
+            alt="Brasão Dr. Odeni Woelbert"
+            className="w-14 h-14 md:w-16 md:h-16 object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
+          />
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="font-display text-white text-base">Dr. Odeni Woelbert</span>
             <span className="text-[11px] tracking-[0.18em] uppercase text-gold/90">
