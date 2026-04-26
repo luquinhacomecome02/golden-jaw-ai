@@ -1,4 +1,5 @@
 import { DOCTOR, WHATSAPP_URL } from "@/lib/site";
+import logoOW from "@/assets/logo-ow.png";
 
 export const Footer = () => (
   <footer className="bg-navy-deep text-white/80 pt-20 pb-10">
@@ -6,9 +7,11 @@ export const Footer = () => (
       <div className="grid md:grid-cols-3 gap-12 pb-12 border-b border-white/10">
         <div>
           <div className="flex items-center gap-2 mb-5">
-            <span className="grid place-items-center w-10 h-10 rounded-full border border-gold/60 text-gold font-display text-lg">
-              O
-            </span>
+            <img
+              src={logoOW}
+              alt="Brasão Dr. Odeni Woelbert"
+              className="w-10 h-10 object-contain"
+            />
             <span className="font-display text-white text-lg">{DOCTOR.name}</span>
           </div>
           <p className="text-sm text-white/60 leading-relaxed">
