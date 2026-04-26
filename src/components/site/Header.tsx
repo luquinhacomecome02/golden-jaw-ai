@@ -33,7 +33,7 @@ export const Header = () => {
           <img
             src={logoOW}
             alt="Brasão Dr. Odeni Woelbert"
-            className="w-10 h-10 object-contain"
+            className="w-14 h-14 md:w-16 md:h-16 object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]"
           />
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="font-display text-white text-base">Dr. Odeni Woelbert</span>
