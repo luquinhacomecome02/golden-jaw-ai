@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { WHATSAPP_URL } from "@/lib/site";
+import logoOW from "@/assets/logo-ow.png";
 
 const links = [
   { href: "#sintomas", label: "Sintomas" },
@@ -29,9 +30,11 @@ export const Header = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 group">
-          <span className="grid place-items-center w-10 h-10 rounded-full border border-gold/60 text-gold font-display text-lg">
-            O
-          </span>
+          <img
+            src={logoOW}
+            alt="Brasão Dr. Odeni Woelbert"
+            className="w-10 h-10 object-contain"
+          />
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="font-display text-white text-base">Dr. Odeni Woelbert</span>
             <span className="text-[11px] tracking-[0.18em] uppercase text-gold/90">
