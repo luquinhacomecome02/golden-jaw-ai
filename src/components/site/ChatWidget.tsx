@@ -128,7 +128,7 @@ export const ChatWidget = () => {
           <div className="bg-gradient-navy text-white px-5 py-4 flex items-center gap-3">
             <div className="relative w-11 h-11 rounded-full bg-gradient-gold grid place-items-center text-navy-deep text-lg shrink-0">
               <i className="fa-solid fa-user-doctor" />
-              <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full bg-emerald-400 border-2 border-navy-deep" />
+              <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full bg-gold border-2 border-navy-deep" />
             </div>
             <div className="flex-1 min-w-0">
               <div className="font-display text-base">Assistente Dr. Odeni</div>
