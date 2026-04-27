@@ -1,7 +1,8 @@
 // Centralized site config
-export const WHATSAPP_NUMBER = "5500000000000"; // Placeholder — substituir
+export const WHATSAPP_NUMBER = "5521964242845";
+export const WHATSAPP_DISPLAY = "(21) 96424-2845";
 export const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Olá Dr. Odeni, gostaria de agendar uma avaliação."
+  "Olá, vim pelo site e quero agendar uma consulta"
 );
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
 
