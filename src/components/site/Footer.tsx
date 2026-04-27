@@ -4,7 +4,7 @@ import logoOW from "@/assets/logo-ow.png";
 export const Footer = () => (
   <footer className="bg-navy-deep text-white/80 pt-16 sm:pt-20 pb-10">
     <div className="container">
-      <div className="grid md:grid-cols-3 gap-10 sm:gap-12 pb-10 sm:pb-12 border-b border-white/10">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10 sm:gap-12 pb-10 sm:pb-12 border-b border-white/10">
         <div>
           <div className="flex items-center gap-2 mb-5">
             <img

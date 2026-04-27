@@ -3,7 +3,7 @@ import { WHATSAPP_URL, DOCTOR } from "@/lib/site";
 
 export const Hero = () => {
   return (
-    <section id="top" className="relative min-h-[100svh] flex items-center overflow-hidden">
+    <section id="top" className="relative min-h-[100svh] flex items-center overflow-hidden w-full">
       <img
         src={heroImg}
         alt="Sala de cirurgia bucomaxilofacial moderna"
@@ -15,13 +15,13 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(var(--gold)/0.15),transparent_60%)]" />
 
       <div className="container relative z-10 pt-28 sm:pt-32 pb-24 sm:pb-20">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl w-full">
           <p className="inline-flex items-center gap-2 text-[10px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase text-gold mb-5 sm:mb-6 animate-fade-in">
             <span className="w-8 h-px bg-gold" />
             Cirurgia Bucomaxilofacial de Excelência
           </p>
 
-          <h1 className="font-display text-white text-[2.5rem] leading-[1.08] sm:text-6xl lg:text-7xl sm:leading-[1.05] mb-6 animate-fade-in-slow">
+          <h1 className="font-display text-white text-[2rem] xs:text-[2.25rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] sm:leading-[1.05] mb-6 animate-fade-in-slow">
             Restaurando <span className="text-gradient-gold italic">harmonia</span>,<br />
             função e <span className="text-gradient-gold italic">confiança</span>.
           </h1>
@@ -36,7 +36,7 @@ export const Hero = () => {
             atendimento humanizado.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-slow">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-slow w-full">
             <a
               href={WHATSAPP_URL}
               target="_blank"

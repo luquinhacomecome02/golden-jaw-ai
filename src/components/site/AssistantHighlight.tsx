@@ -10,9 +10,9 @@ export const AssistantHighlight = () => {
   };
 
   return (
-    <section id="assistente" className="py-16 sm:py-24 bg-secondary">
+    <section id="assistente" className="py-14 sm:py-20 lg:py-24 bg-secondary">
       <div className="container">
-        <div className="reveal relative max-w-4xl mx-auto rounded-3xl bg-gradient-navy text-white px-6 sm:px-12 py-10 sm:py-14 shadow-elegant border border-gold/20 overflow-hidden">
+        <div className="reveal relative max-w-4xl mx-auto rounded-3xl bg-gradient-navy text-white px-5 sm:px-10 lg:px-12 py-9 sm:py-12 lg:py-14 shadow-elegant border border-gold/20 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(var(--gold)/0.18),transparent_60%)] pointer-events-none" />
 
           <div className="relative grid md:grid-cols-[auto_1fr] gap-6 sm:gap-10 items-center">
