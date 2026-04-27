@@ -10,11 +10,11 @@ const credentials = [
 ];
 
 export const About = () => (
-  <section id="sobre" className="py-20 sm:py-32 bg-background overflow-hidden">
-    <div className="container grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+    <section id="sobre" className="py-16 sm:py-24 lg:py-32 bg-background overflow-hidden">
+    <div className="container grid lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-20 items-center">
       {/* Image */}
-      <div className="reveal relative max-w-md mx-auto lg:mx-0 w-full">
-        <div className="absolute -inset-3 sm:-inset-6 border-2 border-gold rounded-2xl translate-x-3 translate-y-3 sm:translate-x-5 sm:translate-y-5" />
+      <div className="reveal relative max-w-sm sm:max-w-md mx-auto lg:mx-0 w-full px-2 sm:px-0">
+        <div className="absolute -inset-2 sm:-inset-4 lg:-inset-6 border-2 border-gold rounded-2xl translate-x-2 translate-y-2 sm:translate-x-4 sm:translate-y-4 lg:translate-x-5 lg:translate-y-5" />
         <img
           src={drImg}
           alt={`${DOCTOR.name}, ${DOCTOR.title}`}

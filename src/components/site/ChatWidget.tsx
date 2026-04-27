@@ -131,7 +131,7 @@ export const ChatWidget = () => {
       {open && (
         <div
           className="fixed z-50 animate-scale-in
-            inset-x-4 bottom-4 sm:inset-x-auto sm:right-6 sm:bottom-6
+            inset-x-3 bottom-3 sm:inset-x-auto sm:right-6 sm:bottom-6
             sm:w-[380px] max-h-[85vh] sm:max-h-[600px]
             flex flex-col rounded-2xl overflow-hidden
             bg-card border border-border shadow-elegant"
