@@ -107,7 +107,7 @@ export const ChatWidget = () => {
         <button
           onClick={() => setOpen(true)}
           aria-label="Abrir chat"
-          className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full bg-gradient-gold text-navy-deep shadow-gold grid place-items-center text-2xl pulse-ring hover:scale-105 transition-transform"
+          className="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-50 w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-gradient-gold text-navy-deep shadow-gold grid place-items-center text-xl sm:text-2xl pulse-ring hover:scale-105 transition-transform"
         >
           <span className="relative z-10">
             <i className="fa-solid fa-comments" />
