@@ -6,6 +6,9 @@ export const WHATSAPP_MESSAGE = encodeURIComponent(
 );
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
 
+export const INSTAGRAM_URL = "https://www.instagram.com/dr.odeniwoelbert/";
+export const INSTAGRAM_HANDLE = "@dr.odeniwoelbert";
+
 export const DOCTOR = {
   name: "Dr. Odeni Woelbert",
   title: "Cirurgião Bucomaxilofacial",

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { WHATSAPP_URL } from "@/lib/site";
+import { WHATSAPP_URL, INSTAGRAM_URL } from "@/lib/site";
 import logoOW from "@/assets/logo-ow.png";
 
 const links = [
@@ -56,6 +56,15 @@ export const Header = () => {
         </nav>
 
         <div className="flex items-center gap-3">
+          <a
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram do Dr. Odeni"
+            className="hidden sm:grid place-items-center w-10 h-10 rounded-full border border-white/20 text-white/80 hover:text-gold hover:border-gold transition-colors"
+          >
+            <i className="fa-brands fa-instagram" />
+          </a>
           <a
             href={WHATSAPP_URL}
             target="_blank"

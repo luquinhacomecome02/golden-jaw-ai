@@ -7,6 +7,7 @@ import { Specialties } from "@/components/site/Specialties";
 import { About } from "@/components/site/About";
 import { Gallery } from "@/components/site/Gallery";
 import { Faq } from "@/components/site/Faq";
+import { InstagramCTA } from "@/components/site/InstagramCTA";
 import { Footer } from "@/components/site/Footer";
 import { ChatWidget } from "@/components/site/ChatWidget";
 
@@ -23,6 +24,7 @@ const Index = () => {
       <About />
       <Gallery />
       <Faq />
+      <InstagramCTA />
       <Footer />
       <ChatWidget />
     </main>
