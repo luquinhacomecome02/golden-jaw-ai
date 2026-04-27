@@ -31,7 +31,7 @@ export const InstagramCTA = () => (
             href={INSTAGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-elevate group inline-flex w-full sm:w-auto items-center justify-center gap-3 px-7 sm:px-8 py-4 sm:py-5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-base shadow-gold"
+            className="btn-elevate group relative z-10 cursor-pointer inline-flex w-full sm:w-auto items-center justify-center gap-3 px-7 sm:px-8 py-4 sm:py-5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-base shadow-gold"
           >
             <i className="fa-brands fa-instagram text-xl" />
             Ver no Instagram
@@ -42,7 +42,7 @@ export const InstagramCTA = () => (
             href={INSTAGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 text-sm text-white/60 hover:text-gold transition-colors"
+            className="mt-4 text-sm text-white/60 hover:text-gold transition-colors relative z-10 cursor-pointer"
           >
             {INSTAGRAM_HANDLE}
           </a>
