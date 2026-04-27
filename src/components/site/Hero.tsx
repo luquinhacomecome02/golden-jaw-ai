@@ -70,10 +70,6 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="hidden sm:flex absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 text-xs tracking-[0.3em] uppercase flex-col items-center gap-2 animate-fade-in-slow">
-        Role para descobrir
-        <i className="fa-solid fa-chevron-down animate-bounce" />
-      </div>
     </section>
   );
 };
