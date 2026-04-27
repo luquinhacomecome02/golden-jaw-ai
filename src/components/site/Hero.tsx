@@ -1,5 +1,5 @@
 import heroImg from "@/assets/hero-clinic.jpg";
-import { WHATSAPP_URL } from "@/lib/site";
+import { WHATSAPP_URL, DOCTOR } from "@/lib/site";
 
 export const Hero = () => {
   return (
@@ -25,6 +25,10 @@ export const Hero = () => {
             Restaurando <span className="text-gradient-gold italic">harmonia</span>,<br />
             função e <span className="text-gradient-gold italic">confiança</span>.
           </h1>
+
+          <p className="text-gold/90 text-sm sm:text-base tracking-wide mb-6 animate-fade-in-slow">
+            {DOCTOR.cro} • {DOCTOR.specialtiesLong}
+          </p>
 
           <p className="border-l-2 border-gold pl-5 text-white/85 text-lg sm:text-xl max-w-2xl mb-10 animate-fade-in-slow">
             Tratamentos cirúrgicos avançados em ortognática, implantes,
