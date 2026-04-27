@@ -8,6 +8,9 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_ME
 export const DOCTOR = {
   name: "Dr. Odeni Woelbert",
   title: "Cirurgião Bucomaxilofacial",
-  cro: "CRO/SC 00000",
+  cro: "CRO 52551",
   rqe: "RQE 00000",
+  specialties: "DTM | Ortognática | Implantes | Sisos | Prótese Facial",
+  specialtiesLong:
+    "Especialista em DTM, Ortognática, Implantes, Sisos e Prótese Facial",
 };
