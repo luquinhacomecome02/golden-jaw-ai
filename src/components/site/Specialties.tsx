@@ -41,7 +41,7 @@ const specialties = [
 ];
 
 export const Specialties = () => (
-  <section id="especialidades" className="py-24 sm:py-32 bg-navy-deep relative overflow-hidden">
+  <section id="especialidades" className="py-20 sm:py-32 bg-navy-deep relative overflow-hidden">
     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,hsl(var(--gold)/0.08),transparent_60%)]" />
     <div className="container relative">
       <SectionTitle
@@ -51,18 +51,18 @@ export const Specialties = () => (
         description="Cada procedimento é planejado individualmente, com tecnologia de ponta e foco em resultados duradouros."
       />
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 mt-12 sm:mt-16">
         {specialties.map((s, i) => (
           <div
             key={s.title}
-            className="reveal group relative bg-white/[0.04] backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-gold/40 hover:bg-white/[0.07] transition-all duration-500"
+            className="reveal group relative bg-white/[0.04] backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/10 hover:border-gold/40 hover:bg-white/[0.07] transition-all duration-500"
             style={{ transitionDelay: `${i * 70}ms` }}
           >
-            <div className="w-14 h-14 rounded-xl bg-gradient-gold text-navy-deep grid place-items-center text-2xl mb-5 shadow-gold">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gradient-gold text-navy-deep grid place-items-center text-xl sm:text-2xl mb-4 sm:mb-5 shadow-gold">
               <i className={`fa-solid ${s.icon}`} />
             </div>
-            <h3 className="font-display text-2xl text-white mb-3">{s.title}</h3>
-            <p className="text-white/70 leading-relaxed mb-5">{s.desc}</p>
+            <h3 className="font-display text-xl sm:text-2xl text-white mb-3">{s.title}</h3>
+            <p className="text-white/70 text-sm sm:text-base leading-relaxed mb-5">{s.desc}</p>
             <ul className="space-y-2 mb-6">
               {s.points.map((p) => (
                 <li key={p} className="flex items-center gap-3 text-sm text-white/80">

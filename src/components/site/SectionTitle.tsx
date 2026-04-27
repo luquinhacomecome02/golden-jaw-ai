@@ -27,7 +27,7 @@ export const SectionTitle = ({
       </p>
     )}
     <h2
-      className={`font-display text-4xl sm:text-5xl leading-tight mb-5 ${
+      className={`font-display text-3xl sm:text-4xl md:text-5xl leading-tight mb-4 sm:mb-5 ${
         invert ? "text-white" : "text-navy"
       }`}
     >
@@ -35,7 +35,7 @@ export const SectionTitle = ({
     </h2>
     {description && (
       <p
-        className={`text-lg leading-relaxed ${
+        className={`text-base sm:text-lg leading-relaxed ${
           invert ? "text-white/75" : "text-muted-foreground"
         }`}
       >
