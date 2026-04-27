@@ -29,7 +29,7 @@ const faqs = [
 ];
 
 export const Faq = () => (
-  <section id="faq" className="py-24 sm:py-32 bg-secondary">
+  <section id="faq" className="py-20 sm:py-32 bg-secondary">
     <div className="container max-w-4xl">
       <SectionTitle
         eyebrow="Dúvidas frequentes"
@@ -37,18 +37,18 @@ export const Faq = () => (
         description="Reunimos as perguntas mais comuns dos nossos pacientes. Se a sua dúvida não estiver aqui, fale com nosso assistente."
       />
 
-      <div className="reveal mt-14">
+      <div className="reveal mt-10 sm:mt-14">
         <Accordion type="single" collapsible className="space-y-4">
           {faqs.map((f, i) => (
             <AccordionItem
               key={i}
               value={`item-${i}`}
-              className="bg-card border border-border rounded-xl px-6 shadow-soft data-[state=open]:border-gold/50 data-[state=open]:shadow-elegant transition-all"
+              className="bg-card border border-border rounded-xl px-4 sm:px-6 shadow-soft data-[state=open]:border-gold/50 data-[state=open]:shadow-elegant transition-all"
             >
-              <AccordionTrigger className="text-left font-display text-lg sm:text-xl text-navy hover:no-underline py-5">
+              <AccordionTrigger className="text-left font-display text-base sm:text-xl text-navy hover:no-underline py-5">
                 {f.q}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground leading-relaxed pb-5">
+              <AccordionContent className="text-muted-foreground text-sm sm:text-base leading-relaxed pb-5">
                 {f.a}
               </AccordionContent>
             </AccordionItem>

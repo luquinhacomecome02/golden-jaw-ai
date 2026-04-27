@@ -14,7 +14,7 @@ const photos = [
 ];
 
 export const Gallery = () => (
-  <section id="galeria" className="py-24 sm:py-32 bg-secondary">
+  <section id="galeria" className="py-20 sm:py-32 bg-secondary">
     <div className="container">
       <SectionTitle
         eyebrow="Galeria"
@@ -26,7 +26,7 @@ export const Gallery = () => (
         description="Atendimento humanizado, tecnologia e precisão em cada procedimento."
       />
 
-      <div className="reveal mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+      <div className="reveal mt-10 sm:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
         {photos.map((p, i) => (
           <div
             key={i}
