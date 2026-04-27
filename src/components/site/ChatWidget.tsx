@@ -83,6 +83,13 @@ export const ChatWidget = () => {
     }
   }, [open, messages.length]);
 
+  // Allow external triggers to open the chat
+  useEffect(() => {
+    const handler = () => setOpen(true);
+    window.addEventListener("open-chat-widget", handler);
+    return () => window.removeEventListener("open-chat-widget", handler);
+  }, []);
+
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: 9e9, behavior: "smooth" });
   }, [messages, typing]);
