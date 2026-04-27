@@ -17,37 +17,42 @@ const KB: KBEntry[] = [
   {
     keywords: ["dor", "dói", "doi", "doendo", "incomodo", "incômodo"],
     reply:
-      "Dores na face, mandíbula ou na boca podem indicar problemas que vão de bruxismo a disfunções da ATM. Uma avaliação clínica permite identificar a origem precisa e o melhor tratamento.",
+      "Isso pode estar relacionado à DTM ou bruxismo. O ideal é uma avaliação clínica para identificar a origem da dor. Posso te encaminhar para o WhatsApp.",
   },
   {
     keywords: ["siso", "sisos", "terceiro molar", "molar"],
     reply:
-      "A extração de sisos é indicada quando há dor, inflamação ou risco de mau posicionamento. Realizamos o procedimento com técnicas modernas, sedação opcional e pós-operatório confortável.",
+      "A extração de sisos é feita com técnicas modernas, sedação opcional e pós-operatório confortável. Posso te encaminhar para o WhatsApp para agendar sua avaliação.",
   },
   {
     keywords: ["ortognática", "ortognatica", "mandíbula", "mandibula", "mordida"],
     reply:
-      "A cirurgia ortognática corrige desalinhamentos esqueléticos da face e mandíbula, melhorando função mastigatória, respiração e estética. O planejamento é digital e personalizado.",
+      "A cirurgia ortognática corrige desalinhamentos da face e mandíbula, melhorando função e estética. O planejamento é personalizado — posso te encaminhar para o WhatsApp.",
   },
   {
     keywords: ["implante", "implantes", "dente", "dentes"],
     reply:
-      "Implantes dentários reabilitam função e estética com soluções como carga imediata, All-on-4 e All-on-6. Avaliamos qualidade óssea e expectativas para o melhor protocolo.",
+      "Implantes dentários reabilitam função e estética com soluções como carga imediata, All-on-4 e All-on-6. Posso te encaminhar para o WhatsApp para uma avaliação.",
   },
   {
     keywords: ["atm", "estalo", "estalos", "bruxismo", "ranger"],
     reply:
-      "Disfunções da ATM podem causar dor, estalos e dores de cabeça. O tratamento é multidisciplinar e pode envolver placas oclusais, fisioterapia e, em casos selecionados, cirurgia minimamente invasiva.",
+      "Disfunções da ATM podem causar dor, estalos e dores de cabeça. O tratamento é multidisciplinar e personalizado. Posso te encaminhar para o WhatsApp.",
+  },
+  {
+    keywords: ["cirurgia", "cirurgias", "cirurgião", "cirurgiao", "operação", "operacao"],
+    reply:
+      "Realizamos cirurgias bucomaxilofaciais com tecnologia avançada e atendimento humanizado. Posso te encaminhar para o WhatsApp para uma avaliação.",
   },
   {
     keywords: ["preço", "preco", "valor", "custo", "quanto custa"],
     reply:
-      "Os valores variam conforme o tratamento e a complexidade do caso. Preferimos apresentar o orçamento após uma avaliação presencial — assim conseguimos personalizar o plano para você.",
+      "Os valores variam conforme o tratamento. Preferimos apresentar o orçamento após uma avaliação presencial — posso te encaminhar para o WhatsApp.",
   },
   {
     keywords: ["agendar", "consulta", "horario", "horário", "marcar"],
     reply:
-      "Posso te encaminhar agora mesmo para o WhatsApp da equipe — eles confirmam horários disponíveis e organizam sua avaliação.",
+      "Perfeito! Posso te encaminhar agora mesmo para o WhatsApp da equipe — eles confirmam horários e organizam sua avaliação.",
   },
 ];
 
