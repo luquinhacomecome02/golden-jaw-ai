@@ -21,27 +21,27 @@ export const Hero = () => {
             Cirurgia Bucomaxilofacial de Excelência
           </p>
 
-          <h1 className="font-display text-white text-[2rem] xs:text-[2.25rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] sm:leading-[1.05] mb-6 animate-fade-in-slow">
+          <h1 className="font-display text-white text-[2rem] xs:text-[2.25rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] sm:leading-[1.05] mb-6 animate-fade-in-slow" style={{ animationDelay: "120ms" }}>
             Restaurando <span className="text-gradient-gold italic">harmonia</span>,<br />
             função e <span className="text-gradient-gold italic">confiança</span>.
           </h1>
 
-          <p className="text-white text-xs sm:text-base tracking-wide mb-6 animate-fade-in-slow">
+          <p className="text-white text-xs sm:text-base tracking-wide mb-6 animate-fade-in-slow" style={{ animationDelay: "260ms" }}>
             {DOCTOR.cro} • {DOCTOR.specialtiesLong}
           </p>
 
-          <p className="border-l-2 border-gold pl-4 sm:pl-5 text-white/85 text-base sm:text-xl max-w-2xl mb-10 animate-fade-in-slow">
+          <p className="border-l-2 border-gold pl-4 sm:pl-5 text-white/85 text-base sm:text-xl max-w-2xl mb-10 animate-fade-in-slow" style={{ animationDelay: "380ms" }}>
             Tratamentos cirúrgicos avançados em ortognática, implantes,
             ATM e cirurgia de sisos — conduzidos com precisão clínica e
             atendimento humanizado.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-slow w-full">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-slow w-full" style={{ animationDelay: "520ms" }}>
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex w-full sm:w-auto items-center justify-center gap-3 px-6 sm:px-8 py-4 sm:py-5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-base shadow-gold hover:scale-[1.03] transition-transform duration-300"
+              className="btn-elevate group inline-flex w-full sm:w-auto items-center justify-center gap-3 px-6 sm:px-8 py-4 sm:py-5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-base shadow-gold"
             >
               <i className="fa-brands fa-whatsapp text-2xl" />
               Falar no WhatsApp

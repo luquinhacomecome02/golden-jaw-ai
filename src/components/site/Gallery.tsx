@@ -30,13 +30,13 @@ export const Gallery = () => (
         {photos.map((p, i) => (
           <div
             key={i}
-            className="group relative overflow-hidden rounded-2xl shadow-soft border border-border bg-card aspect-square"
+            className="img-zoom hover-lift group relative rounded-2xl shadow-soft hover:shadow-elegant border border-border bg-card aspect-square"
           >
             <img
               src={p.src}
               alt={p.alt}
               loading="lazy"
-              className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+              className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           </div>

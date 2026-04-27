@@ -60,7 +60,7 @@ export const Header = () => {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-sm shadow-gold hover:scale-[1.03] transition-transform duration-300"
+            className="btn-elevate hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-sm shadow-gold"
           >
             <i className="fa-solid fa-calendar-check" />
             Agendar Avaliação
