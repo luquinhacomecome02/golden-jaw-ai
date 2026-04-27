@@ -1,6 +1,7 @@
 import { useReveal } from "@/hooks/use-reveal";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
+import { AssistantHighlight } from "@/components/site/AssistantHighlight";
 import { Symptoms } from "@/components/site/Symptoms";
 import { Specialties } from "@/components/site/Specialties";
 import { About } from "@/components/site/About";
@@ -16,6 +17,7 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       <Header />
       <Hero />
+      <AssistantHighlight />
       <Symptoms />
       <Specialties />
       <About />
