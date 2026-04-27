@@ -61,7 +61,7 @@ export const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram do Dr. Odeni"
-            className="hidden sm:grid place-items-center w-10 h-10 rounded-full border border-white/20 text-white/80 hover:text-gold hover:border-gold transition-colors"
+            className="hidden sm:grid place-items-center w-10 h-10 rounded-full border border-white/20 text-white/80 hover:text-gold hover:border-gold transition-colors cursor-pointer"
           >
             <i className="fa-brands fa-instagram" />
           </a>
