@@ -49,7 +49,7 @@ export const AssistantHighlight = () => {
 
               <button
                 onClick={openChat}
-                className="group inline-flex w-full sm:w-auto items-center justify-center gap-3 px-7 sm:px-8 py-4 sm:py-5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-base shadow-gold hover:scale-[1.03] transition-transform duration-300"
+                className="btn-elevate group inline-flex w-full sm:w-auto items-center justify-center gap-3 px-7 sm:px-8 py-4 sm:py-5 rounded-full bg-gradient-gold text-navy-deep font-semibold text-base shadow-gold"
               >
                 <i className="fa-solid fa-comments text-lg" />
                 Abrir assistente agora

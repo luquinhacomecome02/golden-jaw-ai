@@ -68,7 +68,7 @@ export const About = () => (
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex w-full sm:w-auto items-center justify-center gap-3 px-7 py-4 rounded-full bg-navy text-white font-medium hover:bg-navy-deep transition-colors duration-300 shadow-soft"
+          className="btn-elevate inline-flex w-full sm:w-auto items-center justify-center gap-3 px-7 py-4 rounded-full bg-navy text-white font-medium hover:bg-navy-deep shadow-soft"
         >
           <i className="fa-brands fa-whatsapp text-xl text-gold" />
           Conversar com o doutor

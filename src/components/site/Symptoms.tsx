@@ -22,8 +22,8 @@ export const Symptoms = () => (
         {items.map((item, i) => (
           <div
             key={item.title}
-            className="reveal group relative bg-card rounded-2xl p-6 sm:p-8 shadow-soft hover:shadow-elegant border border-border/60 hover:border-gold/40 transition-all duration-500"
-            style={{ transitionDelay: `${i * 60}ms` }}
+            className="reveal hover-lift group relative bg-card rounded-2xl p-6 sm:p-8 shadow-soft hover:shadow-elegant border border-border/60 hover:border-gold/40"
+            style={{ transitionDelay: `${i * 80}ms` }}
           >
             <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-navy text-gold grid place-items-center text-xl sm:text-2xl mb-4 sm:mb-5 group-hover:bg-gradient-gold group-hover:text-navy-deep transition-all duration-500">
               <i className={`fa-solid ${item.icon}`} />

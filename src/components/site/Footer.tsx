@@ -36,7 +36,7 @@ export const Footer = () => (
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex w-full sm:w-auto items-center justify-center gap-3 px-5 py-3 rounded-full bg-gradient-gold text-navy-deep font-semibold text-sm mb-5 shadow-gold hover:scale-[1.03] transition-transform"
+            className="btn-elevate inline-flex w-full sm:w-auto items-center justify-center gap-3 px-5 py-3 rounded-full bg-gradient-gold text-navy-deep font-semibold text-sm mb-5 shadow-gold"
           >
             <i className="fa-brands fa-whatsapp text-lg" />
             Agendar Avaliação

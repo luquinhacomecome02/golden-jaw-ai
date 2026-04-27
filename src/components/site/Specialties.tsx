@@ -55,8 +55,8 @@ export const Specialties = () => (
         {specialties.map((s, i) => (
           <div
             key={s.title}
-            className="reveal group relative bg-white/[0.04] backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/10 hover:border-gold/40 hover:bg-white/[0.07] transition-all duration-500"
-            style={{ transitionDelay: `${i * 70}ms` }}
+            className="reveal hover-lift group relative bg-white/[0.04] backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/10 hover:border-gold/40 hover:bg-white/[0.07] transition-colors duration-500"
+            style={{ transitionDelay: `${i * 80}ms` }}
           >
             <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gradient-gold text-navy-deep grid place-items-center text-xl sm:text-2xl mb-4 sm:mb-5 shadow-gold">
               <i className={`fa-solid ${s.icon}`} />
