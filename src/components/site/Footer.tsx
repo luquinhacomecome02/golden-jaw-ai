@@ -57,7 +57,7 @@ export const Footer = () => (
 
       <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/50">
         <p>© {new Date().getFullYear()} {DOCTOR.name}. Todos os direitos reservados.</p>
-        <p>{DOCTOR.cro} · {DOCTOR.rqe}</p>
+        <p>{DOCTOR.cro} · {DOCTOR.specialties}</p>
       </div>
     </div>
   </footer>
