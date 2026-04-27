@@ -26,7 +26,7 @@ export const Hero = () => {
             função e <span className="text-gradient-gold italic">confiança</span>.
           </h1>
 
-          <p className="text-gold/90 text-xs sm:text-base tracking-wide mb-6 animate-fade-in-slow">
+          <p className="text-white text-xs sm:text-base tracking-wide mb-6 animate-fade-in-slow">
             {DOCTOR.cro} • {DOCTOR.specialtiesLong}
           </p>
 
