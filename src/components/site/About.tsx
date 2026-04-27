@@ -44,6 +44,10 @@ export const About = () => (
           para oferecer aos seus pacientes resultados estéticos e funcionais
           excepcionais.
         </p>
+        <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+          Cirurgião Bucomaxilofacial com atuação em DTM, cirurgia ortognática,
+          implantes dentários, extração de sisos e prótese facial.
+        </p>
         <p className="text-muted-foreground text-lg leading-relaxed mb-8">
           Cada plano de tratamento é construído de forma única, respeitando a
           individualidade, o tempo e os objetivos de cada pessoa.
