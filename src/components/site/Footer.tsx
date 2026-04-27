@@ -2,9 +2,9 @@ import { DOCTOR, WHATSAPP_URL } from "@/lib/site";
 import logoOW from "@/assets/logo-ow.png";
 
 export const Footer = () => (
-  <footer className="bg-navy-deep text-white/80 pt-20 pb-10">
+  <footer className="bg-navy-deep text-white/80 pt-16 sm:pt-20 pb-10">
     <div className="container">
-      <div className="grid md:grid-cols-3 gap-12 pb-12 border-b border-white/10">
+      <div className="grid md:grid-cols-3 gap-10 sm:gap-12 pb-10 sm:pb-12 border-b border-white/10">
         <div>
           <div className="flex items-center gap-2 mb-5">
             <img
@@ -36,7 +36,7 @@ export const Footer = () => (
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-gradient-gold text-navy-deep font-semibold text-sm mb-5 shadow-gold hover:scale-[1.03] transition-transform"
+            className="inline-flex w-full sm:w-auto items-center justify-center gap-3 px-5 py-3 rounded-full bg-gradient-gold text-navy-deep font-semibold text-sm mb-5 shadow-gold hover:scale-[1.03] transition-transform"
           >
             <i className="fa-brands fa-whatsapp text-lg" />
             Agendar Avaliação
@@ -55,7 +55,7 @@ export const Footer = () => (
         </div>
       </div>
 
-      <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/50">
+      <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-3 text-[11px] sm:text-xs text-white/50 text-center md:text-left">
         <p>© {new Date().getFullYear()} {DOCTOR.name}. Todos os direitos reservados.</p>
         <p>{DOCTOR.cro} · {DOCTOR.specialties}</p>
       </div>
